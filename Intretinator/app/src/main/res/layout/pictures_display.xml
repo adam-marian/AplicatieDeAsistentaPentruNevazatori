@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/numarPoze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Number of pictures:"
+        style="@style/CategoryStyle"
+        android:imeOptions="actionDone"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="25dp"
+        android:inputType="number"
+        android:textColor="@color/pictures"
+        android:textColorHint="@color/pictures" />
+
+        <Button
+            android:id="@+id/buton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonAction"
+            android:text="Display" />
+
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="6dp"
+        android:id="@+id/recyclerView">
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

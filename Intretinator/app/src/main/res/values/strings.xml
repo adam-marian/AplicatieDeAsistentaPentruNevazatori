@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Location Display</string>
+    <string name="title_activity_display">Location Display</string>
+    <string name="pictures_activity_display">Picture Display</string>
+    <string name="firebase_path" translatable="false">Locatie</string>
+    <string name="firebase_email" translatable="false"></string>
+    <string name="firebase_password" translatable="false"></string>
+    <string name="pictures" translatable="false">Pictures >></string>
+</resources>
